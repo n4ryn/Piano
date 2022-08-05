@@ -17,7 +17,7 @@ document.addEventListener('keydown', e => {
     const blackKeyIndex = BLACK_KEYS.indexOf(key);
 
     if(whiteKeyIndex > -1) playNote(whiteKeys[whiteKeyIndex]);
-    if(whiteKeyIndex > -1) playNote(blackKeys[blackKeyIndex]);
+    if(blackKeyIndex > -1) playNote(blackKeys[blackKeyIndex]);
 })
 
 function playNote(key){
